@@ -26,83 +26,91 @@ Picture this:
 -  Edit and preview your CV in your browser without installing anything by creating a codespace. Click the <> **Code** button, then click the **Codespaces** tab, and then click **Create codespace on main**. The environment will be ready for RenderCV usage. Update `.vscode/launch.json` to point to your YAML file and press `F5` to run RenderCV in the browser.
 
 <!-- Remove above in src/markdown/Header.j2.md not in README.md -->
-# John Doe's CV
+# Abdelrahman Ahmed's CV
 
-- Phone: +90 541 999 99 99
-- Email: [youremail@yourdomain.com](mailto:youremail@yourdomain.com)
-- Location: Your Location
-- Website: [yourwebsite.com](https://yourwebsite.com/)
-- LinkedIn: [yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [yourusername](https://github.com/yourusername)
+- Phone: +20 11 25747163
+- Email: [abdelrahman.ahmed.hamdy.work@gmail.com](mailto:abdelrahman.ahmed.hamdy.work@gmail.com)
+- Location: Cairo, Egypt
+- Website: [boodyahmedhamdy.github.io](https://boodyahmedhamdy.github.io/)
+- LinkedIn: [abdelrahman-ahmed-a978ba205](https://linkedin.com/in/abdelrahman-ahmed-a978ba205)
+- GitHub: [boodyahmedhamdy](https://github.com/boodyahmedhamdy)
 
 
-# Welcome to RenderCV!
+# Summary
 
-[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.
+Dedicated and enthusiastic **Native Android Developer** with a strong foundation in **Kotlin**, **Jetpack Compose** and architecture patterns like **MVVM**.I am Seeking to leverage technical skills with latest technologies in the field and to Collaborate with others to build Useful and Helpful Moblie Applications to solve real world issues and make people's live easier and better.
 
-The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-
-# Quick Guide
-
-- Each section title is arbitrary and each section contains a list of entries.
-- There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.
-- Select a section title, pick an entry type, and start writing your section!
-- [Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.
 # Education
 
-## University of Pennsylvania, BS in Computer Science
+## Helwan University, BS in Computer Science
 
-- Sept 2000 – May 2005
-- GPA: 3.9/4.0 ([Transcript](https://example.com))
-- **Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+- Oct 2020 – June 2024
+- GPA: 3.33/4.0 **Very Good** with honor degree
 
-# Experience
+# Expreience
 
-## Apple, Software Engineer
+## Digital Egypt Pioneers Initiative **DEPI**, Mobile Developer Intern
 
-- June 2005 – Aug 2007
-- Cupertino, CA
-- Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-- Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-- Redesigned chat file format and implemented backward compatibility for search
+- Apr 2024 – present
+- Hypered
+- Implemented **Design Patterns** and **SOLID Principels** with **Java**
+- Learnt **Flutter** by implementing several small tasks
 
-## Microsoft, Software Engineer Intern
+## Orange Digital Center && Amit Learning, Android Developer Intern
 
-- June 2003 – Aug 2003
-- Redmond, WA
-- Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-- Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-- Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-- Created a test case generation tool that creates random XML docs from XML Schema
-- Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+- Sept 2024 – Sept 2024
+- Cairo, Egypt
+- Developed Android App (Meals app) with **Kotlin** and **Jetpack Compose**
+- Implemented **Multi-Module** architecture with **Use cases**
 
-# Publications
+## Information Technology Institute **(ITI)**, Android Developer Intern
 
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
+- July 2024 – Aug 2024
+- Online
+- Collaborated with team of **5** developers to build (Recipes App) with **Kotlin** and **XML**
+- Managed Github Repository with **+150** commits
+- Achieved **+25** tasks in different parts on Android Developement
+- Learnt about Mobile Application Developement Lifecycle
 
 # Projects
 
-## Multi-User Drawing Tool
+## Recipe App (ITI Summer Training Graduation Project)
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-- Tools Used: C++, MFC
+- [Github](https://github.com/ahmedtelbani/RecipeApp)
+- A smart recipe app that leverages modern Android libraries such as **Retrofit**, **Room**, and **Fragment Navigation**. It offers seamless API integration, advanced data management, and intuitive navigation, delivering a polished and user-centric culinary experience.
+- Colaborated with **Team of 4** Android developers to build this project.
+- Developed **Recipe Details Fragment** which is responsible for displaying recipe details via calling a GET request to a **REST API** with a handling to No Network cases.
+- Designed the **UI** with **XML** with third-party libraries like **Glide** to handle images loading
+- Implemented best practices in architecture with **MVVM** and **Repository** Design Pattern.
 
-## Synchronized Desktop Calendar
+## Password Manager
 
-- [github.com/name/repo](https://github.com/sinaatalay/rendercv)
-- Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-- Tools Used: C#, .NET, SQL, XML
+- [Github](https://github.com/Boodyahmedhamdy/PasswordManager)
+- application for password Generation and Management.
+- Developed using **Kotlin** and **Jetpack Compose** for a modern and efficient user interface.
+- Leveraged **Room** database for robust local data storage for Generated Passwords.
+- Integrated **Navigation** component to ensure a smooth and intuitive user experience within the app.
+- Implemented **Dependency Injection using hilt** to handle dependencies across the whole project.
+- Built with **Clean Architecture** using **Use Cases**
 
-## Custom Operating System
+## Gym Nashaat
 
-- 2002
-- Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-- Tools Used: C
+- [Github](https://github.com/Boodyahmedhamdy/Gym-Nashaat)
+- application for helping Gym manager to manage players in the gym locally on his mobile. **Firebase** was used as experiment.
+- Developed using **Kotlin** and **Jetpack Compose** for a modern and efficient user interface.
+- Leveraged **Room database** for robust local data storage of gym members and their activities.
+- Integrated **Navigation** component to ensure a smooth and intuitive user experience within the app
+- Experimented with **Firebase** to explore its potential functionalities for future development.
 
-# Technologies
+## Twitter Clone
 
-- Languages: C++, C, Java, Objective-C, C#, SQL, JavaScript
-- Technologies: .NET, Microsoft SQL Server, XCode, Interface Builder
+- [Github](https://github.com/Boodyahmedhamdy/Twitter-Clone)
+- **UI-Only** clone for Famous app Twitter. using common jetpack compose ui components like Scaffold and Navigation Drawer
+- Developed solely to hone my skills in building user interfaces using **Jetpack Compose**
+- This project replicates the core **UI** elements of the popular social media platform Twitter
+
+# Skills
+
+- Technologies: Kotlin, Jetpack Compose, Retrofit, Room, Date Store, Naivigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
+- Tools: Android Studio, Android SDK, Gradle, Version Control via Github and Git
+- Soft Skills: Time Management, Team Player, Pressure Handler
