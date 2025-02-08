@@ -31,46 +31,24 @@ Picture this:
 - Phone: +20 11 25747163
 - Email: [abdelrahman.ahmed.hamdy.work@gmail.com](mailto:abdelrahman.ahmed.hamdy.work@gmail.com)
 - Location: Cairo, Egypt
-- Website: [boodyahmedhamdy.github.io](https://boodyahmedhamdy.github.io/)
-- LinkedIn: [abdelrahman-ahmed-a978ba205](https://linkedin.com/in/abdelrahman-ahmed-a978ba205)
-- GitHub: [boodyahmedhamdy](https://github.com/boodyahmedhamdy)
+- LinkedIn: [abdelrahman-ahmed-hamdy](https://linkedin.com/in/abdelrahman-ahmed-hamdy)
 
 
 # Summary
 
-Dedicated and enthusiastic **Native Android Developer** with a strong foundation in **Kotlin**, **Jetpack Compose** and architecture patterns like **MVVM**.I am Seeking to leverage technical skills with latest technologies in the field and to Collaborate with others to build Useful and Helpful Moblie Applications to solve real world issues and make people's live easier and better.
+Well-Organized **Native Android Developer** with a strong foundation in **Java**, **Kotlin**, **Jetpack Compose** and architecture patterns like **MVVM**.I am Seeking to increase my technical skills with **latest technologies**, **best practices** and to Collaborate with other Engineers to build Useful and Helpful Moblie Applications to solve real world issues and make people's live easier and better.
 
 # Education
+
+## Information Technology Institute (ITI), 9-Months Program in Native Mobile Development
+
+- Oct 2024 – present
+- Modern Android Development using Java and Kotlin
 
 ## Helwan University, BS in Computer Science
 
 - Oct 2020 – June 2024
 - GPA: 3.33/4.0 **Very Good** with honor degree
-
-# Expreience
-
-## Digital Egypt Pioneers Initiative **DEPI**, Mobile Developer Intern
-
-- Apr 2024 – present
-- Hypered
-- Implemented **Design Patterns** and **SOLID Principels** with **Java**
-- Learnt **Flutter** by implementing several small tasks
-
-## Orange Digital Center && Amit Learning, Android Developer Intern
-
-- Sept 2024 – Sept 2024
-- Cairo, Egypt
-- Developed Android App (Meals app) with **Kotlin** and **Jetpack Compose**
-- Implemented **Multi-Module** architecture with **Use cases**
-
-## Information Technology Institute **(ITI)**, Android Developer Intern
-
-- July 2024 – Aug 2024
-- Online
-- Collaborated with team of **5** developers to build (Recipes App) with **Kotlin** and **XML**
-- Managed Github Repository with **+150** commits
-- Achieved **+25** tasks in different parts on Android Developement
-- Learnt about Mobile Application Developement Lifecycle
 
 # Projects
 
@@ -89,18 +67,9 @@ Dedicated and enthusiastic **Native Android Developer** with a strong foundation
 - application for password Generation and Management.
 - Developed using **Kotlin** and **Jetpack Compose** for a modern and efficient user interface.
 - Leveraged **Room** database for robust local data storage for Generated Passwords.
-- Integrated **Navigation** component to ensure a smooth and intuitive user experience within the app.
-- Implemented **Dependency Injection using hilt** to handle dependencies across the whole project.
+- Integrated **Navigation Component** to ensure a smooth and intuitive user experience within the app.
+- Implemented **Dependency Injection using Hilt** to handle dependencies across the whole project.
 - Built with **Clean Architecture** using **Use Cases**
-
-## Gym Nashaat
-
-- [Github](https://github.com/Boodyahmedhamdy/Gym-Nashaat)
-- application for helping Gym manager to manage players in the gym locally on his mobile. **Firebase** was used as experiment.
-- Developed using **Kotlin** and **Jetpack Compose** for a modern and efficient user interface.
-- Leveraged **Room database** for robust local data storage of gym members and their activities.
-- Integrated **Navigation** component to ensure a smooth and intuitive user experience within the app
-- Experimented with **Firebase** to explore its potential functionalities for future development.
 
 ## Twitter Clone
 
@@ -112,5 +81,5 @@ Dedicated and enthusiastic **Native Android Developer** with a strong foundation
 # Skills
 
 - Technologies: Kotlin, Jetpack Compose, Retrofit, Room, Date Store, Naivigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
-- Tools: Android Studio, Android SDK, Gradle, Version Control via Github and Git
-- Soft Skills: Time Management, Team Player, Pressure Handler
+- Tools: Android Studio, Android SDK, Gradle, Version Control System via Github and Git
+- Soft Skills: Stratigic Thinking, Analytical Thinking, Openness, Time Management, Supportive Team Player, Active Learner
