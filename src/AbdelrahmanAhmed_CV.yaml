@@ -33,10 +33,20 @@ cv:
           - 'GPA: 3.33/4.0 **Very Good** with honor degree'
 
     projects:
-      - name: 'Mealano, Food Planner'
+      - name: 'Mealano, Food Planner Application'
         date: '[Github](https://github.com/Boodyahmedhamdy/Mealano)'
         highlights:
-          - 
+          # - 'Mealano is an Android application built using
+          #  **Java** that helps users plan their meals efficiently.
+          #   It provides features such as meal suggestions,
+          #   searching by various criteria, favorite meal management
+          #   and integration with the mobile calendar.'
+
+          - 'built using **Java** and **MVP** architecture.'
+          - 'implemented concurrency using **RXJava**'
+          - 'Used **Room Database** for offline usage'
+          - Integrated with **Firebase Database** to add the sync Feature for plans
+          - Used **Retrofit** to handle Restful Api Requests
 
 
       - name: 'Recipe App (ITI Summer Training Graduation Project)'
@@ -68,15 +78,6 @@ cv:
           - Implemented **Dependency Injection using Hilt** to handle dependencies across the whole project. 
           - Built with **Clean Architecture** using **Use Cases**
 
-      # - name: Gym Nashaat
-      #   date: '[Github](https://github.com/Boodyahmedhamdy/Gym-Nashaat)'
-      #   highlights: 
-      #     - application for helping Gym manager to manage players in the gym locally on his mobile. **Firebase** was used as
-      #       experiment.
-      #     - Developed using **Kotlin** and **Jetpack Compose** for a modern and efficient user interface.
-      #     - Leveraged **Room database** for robust local data storage of gym members and their activities.
-      #     - Integrated **Navigation** component to ensure a smooth and intuitive user experience within the app
-      #     - Experimented with **Firebase** to explore its potential functionalities for future development.
 
       - name: Twitter Clone
         date: '[Github](https://github.com/Boodyahmedhamdy/Twitter-Clone)'
