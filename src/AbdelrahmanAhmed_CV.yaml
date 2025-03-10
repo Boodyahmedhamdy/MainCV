@@ -11,7 +11,7 @@ cv:
   sections:
     Summary:
       - "Well-Organized **Native Android Developer** with a strong foundation in **Java**, **Kotlin**, **Jetpack Compose** and
-        architecture patterns like **MVVM**.I am Seeking to increase my technical skills with **latest technologies**, **best practices**
+        architecture patterns like **MVP** and **MVVM**. Seeking to increase my technical skills with **latest technologies**, **best practices**
         and to Collaborate with other Engineers to build Useful and Helpful Moblie Applications to solve real world issues and make people's live easier and better."
       
   
@@ -32,39 +32,13 @@ cv:
         highlights:
           - 'GPA: 3.33/4.0 **Very Good** with honor degree'
 
-    # Expreience:
-    #   - company: 'Digital Egypt Pioneers Initiative **DEPI**'
-    #     position: 'Mobile Developer Intern'
-    #     location: Hypered 
-    #     start_date: 2024-04
-    #     end_date: 'present'
-    #     highlights: 
-    #       - 'Implemented **Design Patterns** and **SOLID Principels** with **Java**'
-    #       - 'Learnt **Flutter** by implementing several small tasks'
-
-    #   - company: Orange Digital Center && Amit Learning
-    #     position: Android Developer Intern 
-    #     location: Cairo, Egypt
-    #     start_date: '2024-09-26'
-    #     end_date: '2024-09-30'
-    #     highlights: 
-    #         - 'Developed Android App (Meals app) with **Kotlin** and **Jetpack Compose**'
-    #         - 'Implemented **Multi-Module** architecture with **Use cases**'
-        
-    #   - company: Information Technology Institute **(ITI)**
-    #     position: Android Developer Intern
-    #     location: Online
-    #     start_date: 2024-07
-    #     end_date: 2024-08
-    #     highlights: 
-    #       - 'Collaborated with team of **5** developers to build (Recipes App) with **Kotlin** and **XML**'
-    #       - 'Managed Github Repository with **+150** commits'
-    #       - 'Achieved **+25** tasks in different parts on Android Developement'
-    #       - 'Learnt about Mobile Application Developement Lifecycle'
-          
-
-
     projects:
+      - name: 'Mealano, Food Planner'
+        date: '[Github](https://github.com/Boodyahmedhamdy/Mealano)'
+        highlights:
+          - 
+
+
       - name: 'Recipe App (ITI Summer Training Graduation Project)'
         date: '[Github](https://github.com/ahmedtelbani/RecipeApp)'
         highlights: 
