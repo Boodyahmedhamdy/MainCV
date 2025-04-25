@@ -36,7 +36,7 @@ Picture this:
 
 # Summary
 
-Well-Organized **Native Android Developer** with a strong foundation in **Java**, **Kotlin**, **Jetpack Compose** and architecture patterns like **MVVM**.I am Seeking to increase my technical skills with **latest technologies**, **best practices** and to Collaborate with other Engineers to build Useful and Helpful Moblie Applications to solve real world issues and make people's live easier and better.
+Well-Organized **Native Android Developer** with a strong foundation in **Java**, **Kotlin**, **Jetpack Compose** and architecture patterns like **MVP** and **MVVM**. Seeking to increase my technical skills with **latest technologies**, **best practices** and to Collaborate with other Engineers to build Useful and Helpful Moblie Applications to solve real world issues and make people's live easier and better.
 
 # Education
 
@@ -51,6 +51,15 @@ Well-Organized **Native Android Developer** with a strong foundation in **Java**
 - GPA: 3.33/4.0 **Very Good** with honor degree
 
 # Projects
+
+## Mealano, Food Planner Application
+
+- [Github](https://github.com/Boodyahmedhamdy/Mealano)
+- built using **Java** and **MVP** architecture.
+- implemented concurrency using **RXJava**
+- Used **Room Database** for offline usage
+- Integrated with **Firebase Database** to add the sync Feature for plans
+- Used **Retrofit** to handle Restful Api Requests
 
 ## Recipe App (ITI Summer Training Graduation Project)
 
