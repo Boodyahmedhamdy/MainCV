@@ -1,5 +1,6 @@
 cv:
   name: Abdelrahman Ahmed Hamdy
+  
   location: Cairo, Egypt
   email: abdelrahman.ahmed.hamdy.work@gmail.com
   phone: tel:+2 0112 5747 163
@@ -13,7 +14,7 @@ cv:
   
   sections:
     Summary:
-      - "Detail-oriented and well-organized Junior Android Developer skilled in **Kotlin, Java, and Jetpack Compose**. Passionate about building clean, scalable apps using modern architecture and best practices."
+      - "Detail-oriented and well-organized **Junior Android Developer** skilled in **Kotlin, Java, and Jetpack Compose**. Passionate about building clean, scalable apps using modern architecture and best practices."
   
     Education:
       - institution: Information Technology Institute (ITI)
@@ -61,15 +62,25 @@ cv:
 
     Skills:
       - label: Technologies
-        details: Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
+        details: Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java,
+          Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
       
       - label: Tools
         details: Android Studio, Android SDK, Gradle, Version Control System (Git and Github)
 
       - label: 'Soft Skills'
-        details: 'Organized Thinking and Self discipline'
+        details: 'Organized Thinking, Self discipline, Team Collaboration and Adaptability'
 
 
+    Languges:
+      - label: Arabic
+        details: Native
+      - label: English
+        details: Very Good
+
+    Additional Information:
+      - label: Malitry Status
+        details: "Exempt"
 
 
 
