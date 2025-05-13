@@ -52,14 +52,28 @@ Well-Organized **Native Android Developer** with a strong foundation in **Java**
 
 # Projects
 
+## Vertex, Weather Forecasting App
+
+- [Github](https://github.com/Boodyahmedhamdy/Vertex)
+- Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI.
+- Implemented **MVVM** with the **Repository pattern** for clean architecture and data flow.
+- Managed concurrency and asynchronous tasks with **Coroutines and Flows** for optimal performance.
+- Ensured reliable background processing using **WorkManager** with Coroutines.
+- Integrated **Room** for local data persistence and **Retrofit** for efficient API calls.
+- Utilized **DataStore** for robust settings and configuration management.
+- Implemented **unit tests** for Room and ViewModel to ensure code quality.
+- Integrated **Google Maps SDK** for interactive maps and **place auto-search**.
+
 ## Mealano, Food Planner Application
 
 - [Github](https://github.com/Boodyahmedhamdy/Mealano)
-- built using **Java** and **MVP** architecture.
-- implemented concurrency using **RXJava**
-- Used **Room Database** for offline usage
-- Integrated with **Firebase Database** to add the sync Feature for plans
-- Used **Retrofit** to handle Restful Api Requests
+- Developed using **Java** and the **MVP architecture** with an **XML-based UI**.
+- Implemented reactive concurrency with **RxJava** for efficient asynchronous operations.
+- Leveraged **Room Database** for robust offline data access and user experience.
+- Integrated **Firebase Database** to enable seamless synchronization of user meal plans across devices.
+- Utilized **Retrofit** for handling efficient and type-safe communication with RESTful APIs.
+- Implemented **SharedPreferences** for managing application settings and user preferences.
+- Integrated with the device's **mobile calendar** to allow users to add meals to their schedules.
 
 ## Recipe App (ITI Summer Training Graduation Project)
 
