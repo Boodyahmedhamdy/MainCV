@@ -26,29 +26,30 @@ Picture this:
 -  Edit and preview your CV in your browser without installing anything by creating a codespace. Click the <> **Code** button, then click the **Codespaces** tab, and then click **Create codespace on main**. The environment will be ready for RenderCV usage. Update `.vscode/launch.json` to point to your YAML file and press `F5` to run RenderCV in the browser.
 
 <!-- Remove above in src/markdown/Header.j2.md not in README.md -->
-# Abdelrahman Ahmed's CV
+# Abdelrahman Ahmed Hamdy's CV
 
 - Phone: +20 11 25747163
 - Email: [abdelrahman.ahmed.hamdy.work@gmail.com](mailto:abdelrahman.ahmed.hamdy.work@gmail.com)
 - Location: Cairo, Egypt
 - LinkedIn: [abdelrahman-ahmed-hamdy](https://linkedin.com/in/abdelrahman-ahmed-hamdy)
+- GitHub: [Boodyahmedhamdy](https://github.com/Boodyahmedhamdy)
 
 
 # Summary
 
-Well-Organized **Native Android Developer** with a strong foundation in **Java**, **Kotlin**, **Jetpack Compose** and architecture patterns like **MVP** and **MVVM**. Seeking to increase my technical skills with **latest technologies**, **best practices** and to Collaborate with other Engineers to build Useful and Helpful Moblie Applications to solve real world issues and make people's live easier and better.
+Detail-oriented and well-organized Junior Android Developer skilled in **Kotlin, Java, and Jetpack Compose**. Passionate about building clean, scalable apps using modern architecture and best practices.
 
 # Education
 
-## Information Technology Institute (ITI), 9-Months Program in Native Mobile Development
+## Information Technology Institute (ITI), 9-Months Professional Diploma in Smart Village Branch, Egypt
 
 - Oct 2024 – present
-- Modern Android Development using Java and Kotlin
+- Mobile Application Development (Native)
 
 ## Helwan University, BS in Computer Science
 
 - Oct 2020 – June 2024
-- GPA: 3.33/4.0 **Very Good** with honor degree
+- GPA: 3.33/4.0 **Very Good** with honors
 
 # Projects
 
@@ -61,7 +62,7 @@ Well-Organized **Native Android Developer** with a strong foundation in **Java**
 - Ensured reliable background processing using **WorkManager** with Coroutines.
 - Integrated **Room** for local data persistence and **Retrofit** for efficient API calls.
 - Utilized **DataStore** for robust settings and configuration management.
-- Implemented **unit tests** for Room and ViewModel to ensure code quality.
+- Implemented **Unit Testing** for Room and ViewModel to ensure code quality.
 - Integrated **Google Maps SDK** for interactive maps and **place auto-search**.
 
 ## Mealano, Food Planner Application
@@ -70,39 +71,13 @@ Well-Organized **Native Android Developer** with a strong foundation in **Java**
 - Developed using **Java** and the **MVP architecture** with an **XML-based UI**.
 - Implemented reactive concurrency with **RxJava** for efficient asynchronous operations.
 - Leveraged **Room Database** for robust offline data access and user experience.
-- Integrated **Firebase Database** to enable seamless synchronization of user meal plans across devices.
+- Integrated **Firebase Database** and **Firebase Authentication** to enable seamless synchronization of user meal plans across devices.
 - Utilized **Retrofit** for handling efficient and type-safe communication with RESTful APIs.
 - Implemented **SharedPreferences** for managing application settings and user preferences.
-- Integrated with the device's **mobile calendar** to allow users to add meals to their schedules.
-
-## Recipe App (ITI Summer Training Graduation Project)
-
-- [Github](https://github.com/ahmedtelbani/RecipeApp)
-- A smart recipe app that leverages modern Android libraries such as **Retrofit**, **Room**, and **Fragment Navigation**. It offers seamless API integration, advanced data management, and intuitive navigation, delivering a polished and user-centric culinary experience.
-- Colaborated with **Team of 4** Android developers to build this project.
-- Developed **Recipe Details Fragment** which is responsible for displaying recipe details via calling a GET request to a **REST API** with a handling to No Network cases.
-- Designed the **UI** with **XML** with third-party libraries like **Glide** to handle images loading
-- Implemented best practices in architecture with **MVVM** and **Repository** Design Pattern.
-
-## Password Manager
-
-- [Github](https://github.com/Boodyahmedhamdy/PasswordManager)
-- application for password Generation and Management.
-- Developed using **Kotlin** and **Jetpack Compose** for a modern and efficient user interface.
-- Leveraged **Room** database for robust local data storage for Generated Passwords.
-- Integrated **Navigation Component** to ensure a smooth and intuitive user experience within the app.
-- Implemented **Dependency Injection using Hilt** to handle dependencies across the whole project.
-- Built with **Clean Architecture** using **Use Cases**
-
-## Twitter Clone
-
-- [Github](https://github.com/Boodyahmedhamdy/Twitter-Clone)
-- **UI-Only** clone for Famous app Twitter. using common jetpack compose ui components like Scaffold and Navigation Drawer
-- Developed solely to hone my skills in building user interfaces using **Jetpack Compose**
-- This project replicates the core **UI** elements of the popular social media platform Twitter
+- Integrated with the device's **Mobile Calendar Using Content Provider** to allow users to add meals to their schedules.
 
 # Skills
 
-- Technologies: Kotlin, Jetpack Compose, Retrofit, Room, Date Store, Naivigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
-- Tools: Android Studio, Android SDK, Gradle, Version Control System via Github and Git
-- Soft Skills: Stratigic Thinking, Analytical Thinking, Openness, Time Management, Supportive Team Player, Active Learner
+- Technologies: Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
+- Tools: Android Studio, Android SDK, Gradle, Version Control System (Git and Github)
+- Soft Skills: Organized Thinking and Self discipline
