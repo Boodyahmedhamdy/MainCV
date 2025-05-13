@@ -4,7 +4,6 @@ cv:
   location: Cairo, Egypt
   email: abdelrahman.ahmed.hamdy.work@gmail.com
   phone: tel:+2 0112 5747 163
-  # phone: "(+2 0112 5747 163)"
   social_networks:
     - network: LinkedIn
       username: abdelrahman-ahmed-hamdy
@@ -70,6 +69,31 @@ cv:
 
       - label: 'Soft Skills'
         details: 'Organized Thinking, Self discipline, Team Collaboration and Adaptability'
+
+
+    Certificates:
+    - name: Native Android Development (Summer Training)
+      location: "Information Technology Institute"
+      start_date: 2024-07
+      end_date: 2024-08
+      highlights: 
+        - "learnt about core android development using kotlin"
+        - built Recipe app with 4 teammates, find it on [Github](https://github.com/ahmedtelbani/RecipeApp)
+
+    - name: Android Development Workshop (3 Days)
+      location: AMIT Learning with Orange Digital Centers
+      date: 2024-09
+      highlights: 
+        - learnt basics of Jetpack Compose
+        - Built Simple Meals Application using Jetpack compose find it on [Github](https://github.com/Boodyahmedhamdy/ODCAmitMealsApp)
+
+    - name: Mobile Development Training
+      location: Digital Egypt Pioneers Initiative - DEPI
+      start_date: 2024-03
+      end_date: 2024-11
+      highlights: 
+        - focused on **Flutter**
+        - participated in Movie application using flutter. find it on [Github](https://github.com/andrrew24/depi_final_project)
 
 
     Languges:
