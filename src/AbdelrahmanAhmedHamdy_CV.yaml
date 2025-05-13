@@ -1,0 +1,117 @@
+cv:
+  name: Abdelrahman Ahmed Hamdy
+  location: Cairo, Egypt
+  email: abdelrahman.ahmed.hamdy.work@gmail.com
+  phone: tel:+2 0112 5747 163
+  # phone: "(+2 0112 5747 163)"
+  social_networks:
+    - network: LinkedIn
+      username: abdelrahman-ahmed-hamdy
+    - network: GitHub
+      username: Boodyahmedhamdy
+
+  
+  sections:
+    Summary:
+      - "Detail-oriented and well-organized Junior Android Developer skilled in **Kotlin, Java, and Jetpack Compose**. Passionate about building clean, scalable apps using modern architecture and best practices."
+  
+    Education:
+      - institution: Information Technology Institute (ITI)
+        degree: 9-Months Professional Diploma
+        area: Smart Village Branch, Egypt
+        start_date: 2024-10
+        end_date: present
+        highlights: 
+          - Mobile Application Development (Native)
+
+      - institution: Helwan University
+        area: Computer Science
+        degree: BS
+        start_date: 2020-10
+        end_date: 2024-06
+        highlights:
+          - 'GPA: 3.33/4.0 **Very Good** with honors'
+
+    projects:
+
+      - name: 'Vertex, Weather Forecasting App'
+        date: '[Github](https://github.com/Boodyahmedhamdy/Vertex)'
+        highlights: 
+          - Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI.
+          - Implemented **MVVM** with the **Repository pattern** for clean architecture and data flow.
+          - Managed concurrency and asynchronous tasks with **Coroutines and Flows** for optimal performance.
+          - Ensured reliable background processing using **WorkManager** with Coroutines.
+          - Integrated **Room** for local data persistence and **Retrofit** for efficient API calls.
+          - Utilized **DataStore** for robust settings and configuration management.
+          - Implemented **Unit Testing** for Room and ViewModel to ensure code quality.
+          - Integrated **Google Maps SDK** for interactive maps and **place auto-search**.
+
+
+      - name: 'Mealano, Food Planner Application'
+        date: '[Github](https://github.com/Boodyahmedhamdy/Mealano)'
+        highlights:
+          - Developed using **Java** and the **MVP architecture** with an **XML-based UI**.
+          - Implemented reactive concurrency with **RxJava** for efficient asynchronous operations.
+          - Leveraged **Room Database** for robust offline data access and user experience.
+          - Integrated **Firebase Database** and **Firebase Authentication** to enable seamless synchronization of user meal plans across devices.
+          - Utilized **Retrofit** for handling efficient and type-safe communication with RESTful APIs.
+          - Implemented **SharedPreferences** for managing application settings and user preferences.
+          - Integrated with the device's **Mobile Calendar Using Content Provider** to allow users to add meals to their schedules.
+
+
+    Skills:
+      - label: Technologies
+        details: Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
+      
+      - label: Tools
+        details: Android Studio, Android SDK, Gradle, Version Control System (Git and Github)
+
+      - label: 'Soft Skills'
+        details: 'Organized Thinking and Self discipline'
+
+
+
+
+
+
+
+
+
+design:
+  theme: engineeringresumes
+  # theme: moderncv
+  font: Charter
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.5 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.3 cm
+      date_and_location_width: 4.5 cm
+      # education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.15 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
