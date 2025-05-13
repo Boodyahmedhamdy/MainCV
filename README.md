@@ -37,7 +37,7 @@ Picture this:
 
 # Summary
 
-Detail-oriented and well-organized Junior Android Developer skilled in **Kotlin, Java, and Jetpack Compose**. Passionate about building clean, scalable apps using modern architecture and best practices.
+Detail-oriented and well-organized **Junior Android Developer** skilled in **Kotlin, Java, and Jetpack Compose**. Passionate about building clean, scalable apps using modern architecture and best practices.
 
 # Education
 
@@ -80,4 +80,11 @@ Detail-oriented and well-organized Junior Android Developer skilled in **Kotlin,
 
 - Technologies: Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
 - Tools: Android Studio, Android SDK, Gradle, Version Control System (Git and Github)
-- Soft Skills: Organized Thinking and Self discipline
+- Soft Skills: Organized Thinking, Self discipline, Team Collaboration and Adaptability
+# Languges
+
+- Arabic: Native
+- English: Very Good
+# Additional Information
+
+- Malitry Status: Exempt
