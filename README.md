@@ -81,6 +81,29 @@ Detail-oriented and well-organized **Junior Android Developer** skilled in **Kot
 - Technologies: Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
 - Tools: Android Studio, Android SDK, Gradle, Version Control System (Git and Github)
 - Soft Skills: Organized Thinking, Self discipline, Team Collaboration and Adaptability
+# Certificates
+
+## Native Android Development (Summer Training)
+
+- July 2024 – Aug 2024
+- Information Technology Institute
+- learnt about core android development using kotlin
+- built Recipe app with 4 teammates, find it on [Github](https://github.com/ahmedtelbani/RecipeApp)
+
+## Android Development Workshop (3 Days)
+
+- Sept 2024
+- AMIT Learning with Orange Digital Centers
+- learnt basics of Jetpack Compose
+- Built Simple Meals Application using Jetpack compose find it on [Github](https://github.com/Boodyahmedhamdy/ODCAmitMealsApp)
+
+## Mobile Development Training
+
+- Mar 2024 – Nov 2024
+- Digital Egypt Pioneers Initiative - DEPI
+- focused on **Flutter**
+- participated in Movie application using flutter. find it on [Github](https://github.com/andrrew24/depi_final_project)
+
 # Languges
 
 - Arabic: Native
