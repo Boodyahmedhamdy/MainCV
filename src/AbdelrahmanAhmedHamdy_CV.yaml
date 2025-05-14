@@ -37,26 +37,25 @@ cv:
       - name: 'Vertex, Weather Forecasting App'
         date: '[Github](https://github.com/Boodyahmedhamdy/Vertex)'
         highlights: 
-          - Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI.
-          - Implemented **MVVM** with the **Repository pattern** for clean architecture and data flow.
-          - Managed concurrency and asynchronous tasks with **Coroutines and Flows** for optimal performance.
-          - Ensured reliable background processing using **WorkManager** with Coroutines.
-          - Integrated **Room** for local data persistence and **Retrofit** for efficient API calls.
-          - Utilized **DataStore** for robust settings and configuration management.
-          - Implemented **Unit Testing** for Room and ViewModel to ensure code quality.
-          - Integrated **Google Maps SDK** for interactive maps and **place auto-search**.
+          - Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI, employing **MVVM** with the **Repository pattern** for clean architecture.    
+
+          - Managed asynchronous tasks and concurrency with **Coroutines and Flows**, ensuring background processing with **WorkManager and Coroutines**.    
+
+          - Integrated **Room** for local data persistence, **Retrofit** for API calls, and **DataStore** for settings management.    
+
+          - Implemented **Unit Testing** for **Room and ViewModel**, and integrated **Google Maps SDK** for interactive maps and **place search**.    
 
 
       - name: 'Mealano, Food Planner Application'
         date: '[Github](https://github.com/Boodyahmedhamdy/Mealano)'
         highlights:
-          - Developed using **Java** and the **MVP architecture** with an **XML-based UI**.
-          - Implemented reactive concurrency with **RxJava** for efficient asynchronous operations.
-          - Leveraged **Room Database** for robust offline data access and user experience.
-          - Integrated **Firebase Database** and **Firebase Authentication** to enable seamless synchronization of user meal plans across devices.
-          - Utilized **Retrofit** for handling efficient and type-safe communication with RESTful APIs.
-          - Implemented **SharedPreferences** for managing application settings and user preferences.
-          - Integrated with the device's **Mobile Calendar Using Content Provider** to allow users to add meals to their schedules.
+          - Developed using **Java** and **MVP** architecture with an **XML-based UI**, implementing reactive concurrency with **RxJava**.
+
+          - Leveraged **Room** Database for offline data access and user experience, and utilized **Retrofit** for RESTful API communication.
+
+          - Integrated **Firebase Database** and **Firebase Authentication** for user meal plan synchronization across devices.
+
+          - Implemented **SharedPreferences** for application settings and integrated with the device's **Mobile Calendar using Content Provider**.
 
 
     Skills:
