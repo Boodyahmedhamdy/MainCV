@@ -100,7 +100,7 @@ Detail-oriented and well-organized **Junior Android Developer** skilled in **Kot
 # Languges
 
 - Arabic: Native
-- English: Very Good
+- English: Minimum Professional Proficiency
 # Additional Information
 
 - Malitry Status: Exempt
