@@ -32,7 +32,7 @@ Picture this:
 - Email: [abdelrahman.ahmed.hamdy.work@gmail.com](mailto:abdelrahman.ahmed.hamdy.work@gmail.com)
 - Location: Cairo, Egypt
 - LinkedIn: [abdelrahman-ahmed-hamdy](https://linkedin.com/in/abdelrahman-ahmed-hamdy)
-- GitHub: [Boodyahmedhamdy](https://github.com/Boodyahmedhamdy)
+- GitHub: [BoodyahmedHamdy](https://github.com/BoodyahmedHamdy)
 
 
 # Summary
@@ -44,12 +44,13 @@ Detail-oriented and well-organized **Junior Android Developer** skilled in **Kot
 ## Information Technology Institute (ITI), 9-Months Professional Diploma in Smart Village Branch, Egypt
 
 - Oct 2024 – present
-- Mobile Application Development (Native)
+- Mobile Applications Development (Native)
 
-## Helwan University, BS in Computer Science
+## Helwan University, BSc in Computer Science
 
-- Oct 2020 – June 2024
+- Oct 2020 – May 2024
 - GPA: 3.33/4.0 **Very Good** with honors
+- Graduation Project: Laywer Assistant Chat bot - Grade: **Excellent**
 
 # Projects
 
@@ -71,26 +72,26 @@ Detail-oriented and well-organized **Junior Android Developer** skilled in **Kot
 
 # Skills
 
-- Technologies: Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
-- Tools: Android Studio, Android SDK, Gradle, Version Control System (Git and Github)
+- Technologies: Kotlin, Java, Jetpack Compose, Material Design, Retrofit, Coroutines, RxJava, Room, Sqlite, DataStore, Navigation Component, Hilt, Koin, Coil, Firebase, Unit Testing, Instrumentation Testing, Problem Solving, OOP, Data Structure, Algorithms.
+- Tools: Android Studio, Android SDK, Version Control System (Git and Github)
 - Soft Skills: Organized Thinking, Self discipline, Team Collaboration and Adaptability
 # Certificates
 
-## Native Android Development (Summer Training)
-
-- July 2024 – Aug 2024
-- Information Technology Institute
-- learnt about core android development using kotlin
-- built Recipe app with 4 teammates, find it on [Github](https://github.com/ahmedtelbani/RecipeApp)
-
-## Android Development Workshop (3 Days)
+## Android Applications Development Workshop (3 Days)
 
 - Sept 2024
 - AMIT Learning with Orange Digital Centers
 - learnt basics of Jetpack Compose
 - Built Simple Meals Application using Jetpack compose find it on [Github](https://github.com/Boodyahmedhamdy/ODCAmitMealsApp)
 
-## Mobile Development Training
+## Native Android Applications Development (Summer Training)
+
+- July 2024 – Aug 2024
+- Information Technology Institute
+- learnt about core Android development using kotlin
+- built Recipe app, find it on [Github](https://github.com/ahmedtelbani/RecipeApp)
+
+## Mobile Applications Development Training
 
 - Mar 2024 – Nov 2024
 - Digital Egypt Pioneers Initiative - DEPI
@@ -103,4 +104,4 @@ Detail-oriented and well-organized **Junior Android Developer** skilled in **Kot
 - English: Minimum Professional Proficiency
 # Additional Information
 
-- Malitry Status: Exempt
+- Malitry Status: Exempted
