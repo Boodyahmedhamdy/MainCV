@@ -3,12 +3,12 @@ cv:
   
   location: Cairo, Egypt
   email: abdelrahman.ahmed.hamdy.work@gmail.com
-  phone: tel:+2 0112 5747 163
+  phone:  +2 0112 5747 163
   social_networks:
     - network: LinkedIn
       username: abdelrahman-ahmed-hamdy
     - network: GitHub
-      username: Boodyahmedhamdy
+      username: BoodyahmedHamdy
 
   
   sections:
@@ -22,72 +22,75 @@ cv:
         start_date: 2024-10
         end_date: present
         highlights: 
-          - Mobile Application Development (Native)
+          - Mobile Applications Development (Native)
 
       - institution: Helwan University
         area: Computer Science
-        degree: BS
+        degree: BSc
         start_date: 2020-10
-        end_date: 2024-06
+        end_date: 2024-05
         highlights:
           - 'GPA: 3.33/4.0 **Very Good** with honors'
+          - 'Graduation Project: Laywer Assistant Chat bot - Grade: **Excellent**'
 
     projects:
 
       - name: 'Vertex, Weather Forecasting App'
         date: '[Github](https://github.com/Boodyahmedhamdy/Vertex)'
         highlights: 
-          - Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI.
-          - Implemented **MVVM** with the **Repository pattern** for clean architecture and data flow.
-          - Managed concurrency and asynchronous tasks with **Coroutines and Flows** for optimal performance.
-          - Ensured reliable background processing using **WorkManager** with Coroutines.
-          - Integrated **Room** for local data persistence and **Retrofit** for efficient API calls.
-          - Utilized **DataStore** for robust settings and configuration management.
-          - Implemented **Unit Testing** for Room and ViewModel to ensure code quality.
-          - Integrated **Google Maps SDK** for interactive maps and **place auto-search**.
+          - Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI, employing **MVVM** with the **Repository pattern** for clean architecture.    
+
+          - Managed asynchronous tasks and concurrency with **Coroutines and Flows**, ensuring background processing with **WorkManager and Coroutines**.    
+
+          - Integrated **Room** for local data persistence, **Retrofit** for API calls, and **DataStore** for settings management.    
+
+          - Implemented **Unit Testing** for **Room and ViewModel**, and integrated **Google Maps SDK** for interactive maps and **place search**.
 
 
       - name: 'Mealano, Food Planner Application'
         date: '[Github](https://github.com/Boodyahmedhamdy/Mealano)'
         highlights:
-          - Developed using **Java** and the **MVP architecture** with an **XML-based UI**.
-          - Implemented reactive concurrency with **RxJava** for efficient asynchronous operations.
-          - Leveraged **Room Database** for robust offline data access and user experience.
-          - Integrated **Firebase Database** and **Firebase Authentication** to enable seamless synchronization of user meal plans across devices.
-          - Utilized **Retrofit** for handling efficient and type-safe communication with RESTful APIs.
-          - Implemented **SharedPreferences** for managing application settings and user preferences.
-          - Integrated with the device's **Mobile Calendar Using Content Provider** to allow users to add meals to their schedules.
+          - Developed using **Java** and **MVP** architecture with an **XML-based UI**, implementing reactive concurrency with **RxJava**.
+
+          - Leveraged **Room** Database for offline data access and user experience, and utilized **Retrofit** for RESTful API communication.
+
+          - Integrated **Firebase Database** and **Firebase Authentication** for user meal plan synchronization across devices.
+
+          - Implemented **SharedPreferences** for application settings and integrated with the device's **Mobile Calendar using Content Provider**.
 
 
     Skills:
       - label: Technologies
-        details: Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java,
-          Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
+        details: Kotlin, Java, Jetpack Compose, Material Design, Retrofit, Coroutines, RxJava, Room, Sqlite, DataStore, Navigation Component, Hilt, Koin, Coil,
+          Firebase, Unit Testing, Instrumentation Testing, Problem Solving, OOP, Data Structure, Algorithms.
       
       - label: Tools
-        details: Android Studio, Android SDK, Gradle, Version Control System (Git and Github)
+        details: Android Studio, Android SDK, Version Control System (Git and Github)
 
       - label: 'Soft Skills'
         details: 'Organized Thinking, Self discipline, Team Collaboration and Adaptability'
 
 
     Certificates:
-    - name: Native Android Development (Summer Training)
-      location: "Information Technology Institute"
-      start_date: 2024-07
-      end_date: 2024-08
-      highlights: 
-        - "learnt about core android development using kotlin"
-        - built Recipe app with 4 teammates, find it on [Github](https://github.com/ahmedtelbani/RecipeApp)
 
-    - name: Android Development Workshop (3 Days)
+    - name: Android Applications Development Workshop (3 Days)
       location: AMIT Learning with Orange Digital Centers
       date: 2024-09
       highlights: 
         - learnt basics of Jetpack Compose
         - Built Simple Meals Application using Jetpack compose find it on [Github](https://github.com/Boodyahmedhamdy/ODCAmitMealsApp)
 
-    - name: Mobile Development Training
+
+    - name: Native Android Applications Development (Summer Training)
+      location: "Information Technology Institute"
+      start_date: 2024-07
+      end_date: 2024-08
+      highlights: 
+        - "learnt about core Android development using kotlin"
+        - built Recipe app, find it on [Github](https://github.com/ahmedtelbani/RecipeApp)
+
+  
+    - name: Mobile Applications Development Training
       location: Digital Egypt Pioneers Initiative - DEPI
       start_date: 2024-03
       end_date: 2024-11
@@ -104,7 +107,7 @@ cv:
 
     Additional Information:
       - label: Malitry Status
-        details: "Exempt"
+        details: "Exempted"
 
 
 
@@ -116,13 +119,13 @@ design:
   theme: engineeringresumes
   # theme: moderncv
   font: Charter
-  font_size: 10pt
+  font_size: 12pt
   page_size: letterpaper
   color: '#004f90'
   disable_external_link_icons: false
-  disable_page_numbering: false
+  disable_page_numbering: true
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: false
+  disable_last_updated_date: true
   last_updated_date_style: Last updated in TODAY
   header_font_size: 30 pt
   text_alignment: justified
