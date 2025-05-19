@@ -56,35 +56,51 @@ Detail-oriented and well-organized **Junior Android Developer** skilled in **Kot
 ## Vertex, Weather Forecasting App
 
 - [Github](https://github.com/Boodyahmedhamdy/Vertex)
-- Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI.
-- Implemented **MVVM** with the **Repository pattern** for clean architecture and data flow.
-- Managed concurrency and asynchronous tasks with **Coroutines and Flows** for optimal performance.
-- Ensured reliable background processing using **WorkManager** with Coroutines.
-- Integrated **Room** for local data persistence and **Retrofit** for efficient API calls.
-- Utilized **DataStore** for robust settings and configuration management.
-- Implemented **Unit Testing** for Room and ViewModel to ensure code quality.
-- Integrated **Google Maps SDK** for interactive maps and **place auto-search**.
+- Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI, employing **MVVM** with the **Repository pattern** for clean architecture.   
+- Managed asynchronous tasks and concurrency with **Coroutines and Flows**, ensuring background processing with **WorkManager and Coroutines**.   
+- Integrated **Room** for local data persistence, **Retrofit** for API calls, and **DataStore** for settings management.   
+- Implemented **Unit Testing** for **Room and ViewModel**, and integrated **Google Maps SDK** for interactive maps and **place search**.   
 
 ## Mealano, Food Planner Application
 
 - [Github](https://github.com/Boodyahmedhamdy/Mealano)
-- Developed using **Java** and the **MVP architecture** with an **XML-based UI**.
-- Implemented reactive concurrency with **RxJava** for efficient asynchronous operations.
-- Leveraged **Room Database** for robust offline data access and user experience.
-- Integrated **Firebase Database** and **Firebase Authentication** to enable seamless synchronization of user meal plans across devices.
-- Utilized **Retrofit** for handling efficient and type-safe communication with RESTful APIs.
-- Implemented **SharedPreferences** for managing application settings and user preferences.
-- Integrated with the device's **Mobile Calendar Using Content Provider** to allow users to add meals to their schedules.
+- Developed using **Java** and **MVP** architecture with an **XML-based UI**, implementing reactive concurrency with **RxJava**.
+- Leveraged **Room** Database for offline data access and user experience, and utilized **Retrofit** for RESTful API communication.
+- Integrated **Firebase Database** and **Firebase Authentication** for user meal plan synchronization across devices.
+- Implemented **SharedPreferences** for application settings and integrated with the device's **Mobile Calendar using Content Provider**.
 
 # Skills
 
 - Technologies: Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
 - Tools: Android Studio, Android SDK, Gradle, Version Control System (Git and Github)
 - Soft Skills: Organized Thinking, Self discipline, Team Collaboration and Adaptability
+# Certificates
+
+## Native Android Development (Summer Training)
+
+- July 2024 – Aug 2024
+- Information Technology Institute
+- learnt about core android development using kotlin
+- built Recipe app with 4 teammates, find it on [Github](https://github.com/ahmedtelbani/RecipeApp)
+
+## Android Development Workshop (3 Days)
+
+- Sept 2024
+- AMIT Learning with Orange Digital Centers
+- learnt basics of Jetpack Compose
+- Built Simple Meals Application using Jetpack compose find it on [Github](https://github.com/Boodyahmedhamdy/ODCAmitMealsApp)
+
+## Mobile Development Training
+
+- Mar 2024 – Nov 2024
+- Digital Egypt Pioneers Initiative - DEPI
+- focused on **Flutter**
+- participated in Movie application using flutter. find it on [Github](https://github.com/andrrew24/depi_final_project)
+
 # Languges
 
 - Arabic: Native
-- English: Very Good
+- English: Minimum Professional Proficiency
 # Additional Information
 
 - Malitry Status: Exempt
