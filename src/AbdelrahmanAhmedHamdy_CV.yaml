@@ -44,11 +44,8 @@ cv:
 
           - Integrated **Room** for local data persistence, **Retrofit** for API calls, and **DataStore** for settings management.    
 
-<<<<<<< HEAD
-          - Implemented **Unit Testing** for **Room and ViewModel**, and integrated **Google Maps SDK** for interactive maps and **place search**.
-=======
           - Implemented **Unit Testing** for **Room and ViewModel**, and integrated **Google Maps SDK** for interactive maps and **place search**.    
->>>>>>> 8289d40371db58f32e46a1908e0f188a3100a370
+
 
 
       - name: 'Mealano, Food Planner Application'
