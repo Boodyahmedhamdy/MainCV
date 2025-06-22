@@ -54,10 +54,20 @@ Detail-oriented and well-organized **Junior Android Developer** skilled in **Kot
 
 # Projects
 
+## OutfitGo, E-commerce Mobile Application
+
+- [Github](https://github.com/OutfitGo/OutfitGo-Client)
+- Developed a modern E-commerce Android app using **Kotlin** and **Jetpack Compose** for a reactive UI.
+- Employed **MVI** with **Clean Architecture**.
+- Integrated **Apollo-Client** for **GraphQL** API calls to **Shopify Backend** and **DataStore** for settings management.
+- Managed asynchronous tasks and concurrency with **Coroutines and Flows**
+- Implemented **Unit Testing** with **MockK**.
+- Used **Hilt** for Dependency Injection.
+
 ## Vertex, Weather Forecasting App
 
 - [Github](https://github.com/Boodyahmedhamdy/Vertex)
-- Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI, employing **MVVM** with the **Repository pattern** for clean architecture.   
+- Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI, employing **MVVM** with the **Repository pattern**.   
 - Managed asynchronous tasks and concurrency with **Coroutines and Flows**, ensuring background processing with **WorkManager and Coroutines**.   
 - Integrated **Room** for local data persistence, **Retrofit** for API calls, and **DataStore** for settings management.   
 - Implemented **Unit Testing** for **Room and ViewModel**, and integrated **Google Maps SDK** for interactive maps and **place search**.   
