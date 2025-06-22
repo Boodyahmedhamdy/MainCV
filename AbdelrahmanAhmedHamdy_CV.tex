@@ -1,4 +1,4 @@
-\documentclass[10pt, letterpaper]{article}
+\documentclass[12pt, letterpaper]{article}
 
 % Packages:
 \usepackage[
@@ -53,13 +53,7 @@
 \setlength{\parindent}{0pt} % no indentation
 \setlength{\topskip}{0pt} % no top skip
 \setlength{\columnsep}{0.15cm} % set column seperation
-\makeatletter
-\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
-\patchcmd{\ps@customFooterStyle}{\thepage}{
-    \color{gray}\textit{\small Abdelrahman Ahmed Hamdy - Page \thepage{} of \pageref*{LastPage}}
-}{}{} % replace number by desired string
-\makeatother
-\pagestyle{customFooterStyle}
+\pagenumbering{gobble} % no page numbering
 
 \titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
 
@@ -165,7 +159,6 @@
     \newsavebox\ANDbox
     \sbox\ANDbox{}
 
-    \placelastupdatedtext
     \begin{header}
         \fontsize{30 pt}{30 pt}\selectfont Abdelrahman Ahmed Hamdy
 
@@ -188,7 +181,7 @@
         \kern 0.25 cm%
         \AND%
         \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{https://github.com/Boodyahmedhamdy}{{\footnotesize\faGithub}\hspace*{0.13cm}Boodyahmedhamdy}}%
+        \mbox{\hrefWithoutArrow{https://github.com/BoodyahmedHamdy}{{\footnotesize\faGithub}\hspace*{0.13cm}BoodyahmedHamdy}}%
     \end{header}
 
     \vspace{0.3 cm - 0.5 cm}
@@ -218,7 +211,7 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Mobile Application Development (Native)
+                \item Mobile Applications Development (Native)
             \end{highlights}
         \end{onecolentry}
 
@@ -226,14 +219,15 @@
         \vspace{0.3 cm}
 
         \begin{twocolentry}{
-            Oct 2020 – June 2024
+            Oct 2020 – May 2024
         }
-            \textbf{Helwan University}, BS in Computer Science\end{twocolentry}
+            \textbf{Helwan University}, BSc in Computer Science\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
                 \item GPA: 3.33/4.0 \textbf{Very Good} with honors
+                \item Graduation Project: Laywer Assistant Chat bot - Grade: \textbf{Excellent}
             \end{highlights}
         \end{onecolentry}
 
@@ -287,13 +281,13 @@
 
         
         \begin{onecolentry}
-            \textbf{Technologies:} Kotlin, Jetpack Compose, Retrofit, Room, DataStore, Navigation Compose, Hilt, Coil, Java, Firebase (Basic Knowledge), Unit Testing (Basic Knowledge), Instrumentation Testing (Basic Knowledge).
+            \textbf{Technologies:} Kotlin, Java, Jetpack Compose, Material Design, Retrofit, Coroutines, RxJava, Room, Sqlite, DataStore, Navigation Component, Hilt, Koin, Coil, Firebase, Unit Testing, Instrumentation Testing, Problem Solving, OOP, Data Structure, Algorithms.
         \end{onecolentry}
 
         \vspace{0.3 cm}
 
         \begin{onecolentry}
-            \textbf{Tools:} Android Studio, Android SDK, Gradle, Version Control System (Git and Github)
+            \textbf{Tools:} Android Studio, Android SDK, Version Control System (Git and Github)
         \end{onecolentry}
 
         \vspace{0.3 cm}
@@ -310,25 +304,9 @@
 
         
         \begin{twocolentry}{
-            July 2024 – Aug 2024
-        }
-            \textbf{Native Android Development (Summer Training)} -- Information Technology Institute\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item learnt about core android development using kotlin
-                \item built Recipe app with 4 teammates, find it on \href{https://github.com/ahmedtelbani/RecipeApp}{Github}
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.3 cm}
-
-        \begin{twocolentry}{
             Sept 2024
         }
-            \textbf{Android Development Workshop (3 Days)} -- AMIT Learning with Orange Digital Centers\end{twocolentry}
+            \textbf{Android Applications Development Workshop (3 Days)} -- AMIT Learning with Orange Digital Centers\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
@@ -342,9 +320,25 @@
         \vspace{0.3 cm}
 
         \begin{twocolentry}{
+            July 2024 – Aug 2024
+        }
+            \textbf{Native Android Applications Development (Summer Training)} -- Information Technology Institute\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item learnt about core Android development using kotlin
+                \item built Recipe app, find it on \href{https://github.com/ahmedtelbani/RecipeApp}{Github}
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.3 cm}
+
+        \begin{twocolentry}{
             Mar 2024 – Nov 2024
         }
-            \textbf{Mobile Development Training} -- Digital Egypt Pioneers Initiative - DEPI\end{twocolentry}
+            \textbf{Mobile Applications Development Training} -- Digital Egypt Pioneers Initiative - DEPI\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
@@ -380,7 +374,7 @@
 
         
         \begin{onecolentry}
-            \textbf{Malitry Status:} Exempt
+            \textbf{Malitry Status:} Exempted
         \end{onecolentry}
 
 
