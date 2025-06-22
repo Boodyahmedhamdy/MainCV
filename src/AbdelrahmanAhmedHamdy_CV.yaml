@@ -35,10 +35,26 @@ cv:
 
     projects:
 
+      - name: 'OutfitGo, E-commerce Mobile Application'
+        date: '[Github](https://github.com/OutfitGo/OutfitGo-Client)'
+        highlights: 
+          - Developed a modern E-commerce Android app using **Kotlin** and **Jetpack Compose** for a reactive UI.
+          
+          - Employed **MVI** with **Clean Architecture**.   
+
+          - Integrated **Apollo-Client** for **GraphQL** API calls to **Shopify Backend** and **DataStore** for settings management. 
+
+          - Managed asynchronous tasks and concurrency with **Coroutines and Flows** 
+
+          - Implemented **Unit Testing** with **MockK**.
+
+          - Used **Hilt** for Dependency Injection.
+
+
       - name: 'Vertex, Weather Forecasting App'
         date: '[Github](https://github.com/Boodyahmedhamdy/Vertex)'
         highlights: 
-          - Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI, employing **MVVM** with the **Repository pattern** for clean architecture.    
+          - Developed a modern Android weather app using **Kotlin** and **Jetpack Compose** for a reactive UI, employing **MVVM** with the **Repository pattern**.    
 
           - Managed asynchronous tasks and concurrency with **Coroutines and Flows**, ensuring background processing with **WorkManager and Coroutines**.    
 
