@@ -1,4 +1,4 @@
-\documentclass[12pt, letterpaper]{article}
+\documentclass[10pt, letterpaper]{article}
 
 % Packages:
 \usepackage[
@@ -14,7 +14,7 @@
 \usepackage{tabularx} % for making tables with fixed width columns
 \usepackage{array} % tabularx requires this
 \usepackage[dvipsnames]{xcolor} % for coloring text
-\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+\definecolor{primaryColor}{RGB}{0, 0, 0} % define primary color
 \usepackage{enumitem} % for customizing lists
 \usepackage{fontawesome5} % for using icons
 \usepackage{amsmath} % for math
@@ -34,7 +34,6 @@
 \usepackage{ifthen} % for conditional statements
 \usepackage{needspace} % for avoiding page brake right after the section title
 \usepackage{iftex} % check if engine is pdflatex, xetex or luatex
-
 % Ensure that generate pdf is machine readable/ATS parsable:
 \ifPDFTeX
     \input{glyphtounicode}
@@ -43,10 +42,11 @@
     \usepackage[utf8]{inputenc}
     \usepackage{lmodern}
 \fi
-
 \usepackage{charter}
+\usepackage{graphicx} % for the profile picture
 
 % Some settings:
+\raggedright
 \AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
 \pagestyle{empty} % no header or footer
 \setcounter{secnumdepth}{0} % no section numbering
@@ -62,7 +62,7 @@
     -1pt
 }{
     % top space:
-    0.5 cm
+    0.3 cm
 }{
     % bottom space:
     0.2 cm
@@ -72,10 +72,10 @@
 \newenvironment{highlights}{
     \begin{itemize}[
         topsep=0.10 cm,
-        parsep=0.15 cm,
+        parsep=0.10 cm,
         partopsep=0pt,
         itemsep=0pt,
-        leftmargin=0.4 cm + 10pt
+        leftmargin=0 cm + 10pt
     ]
 }{
     \end{itemize}
@@ -85,7 +85,7 @@
 \newenvironment{highlightsforbulletentries}{
     \begin{itemize}[
         topsep=0.10 cm,
-        parsep=0.15 cm,
+        parsep=0.10 cm,
         partopsep=0pt,
         itemsep=0pt,
         leftmargin=10pt
@@ -96,9 +96,9 @@
 
 \newenvironment{onecolentry}{
     \begin{adjustwidth}{
-        0.2 cm + 0.00001 cm
+        0 cm + 0.00001 cm
     }{
-        0.2 cm + 0.00001 cm
+        0 cm + 0.00001 cm
     }
 }{
     \end{adjustwidth}
@@ -136,19 +136,29 @@
 \newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
   \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
     \put(
-        \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperwidth-2 cm-0 cm+0.05cm},
         \LenToUnit{\paperheight-1.0 cm}
     ){\vtop{{\null}\makebox[0pt][c]{
-        \small\color{gray}\textit{Last updated in June 2025}\hspace{\widthof{Last updated in June 2025}}
+        \small\color{gray}\textit{Last updated in Mar 2026}\hspace{\widthof{Last updated in Mar 2026}}
     }}}%
   }%
 }%
+
+\newenvironment{twocolheadercontainer}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 0.2\linewidth}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for headers with profile pictures
 
 % save the original href command in a new command:
 \let\hrefWithoutArrow\href
 
 % new command for external links:
-\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
 
 
 \begin{document}
@@ -157,34 +167,35 @@
         \ignorespaces
     }
     \newsavebox\ANDbox
-    \sbox\ANDbox{}
+    \sbox\ANDbox{$|$}
+
 
     \begin{header}
-        \fontsize{30 pt}{30 pt}\selectfont Abdelrahman Ahmed Hamdy
+        \fontsize{25 pt}{25 pt}\selectfont Abdelrahman Ahmed Hamdy
 
-        \vspace{0.3 cm}
+        \vspace{5 pt}
 
         \normalsize
-        \mbox{{\footnotesize\faMapMarker*}\hspace*{0.13cm}Cairo, Egypt}%
-        \kern 0.25 cm%
+        \mbox{Cairo, Egypt}%
+        \kern 5.0 pt%
         \AND%
-        \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{mailto:abdelrahman.ahmed.hamdy.work@gmail.com}{{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}abdelrahman.ahmed.hamdy.work@gmail.com}}%
-        \kern 0.25 cm%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{mailto:abdelrahman.ahmed.hamdy.work@gmail.com}{abdelrahman.ahmed.hamdy.work@gmail.com}}%
+        \kern 5.0 pt%
         \AND%
-        \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{tel:+20-11-25747163}{{\footnotesize\faPhone*}\hspace*{0.13cm}011 25747163}}%
-        \kern 0.25 cm%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{tel:+20-11-25747163}{011 25747163}}%
+        \kern 5.0 pt%
         \AND%
-        \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{https://linkedin.com/in/abdelrahman-ahmed-hamdy}{{\footnotesize\faLinkedinIn}\hspace*{0.13cm}abdelrahman-ahmed-hamdy}}%
-        \kern 0.25 cm%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://linkedin.com/in/abdelrahman-ahmed-hamdy}{linkedin.com/in/abdelrahman-ahmed-hamdy}}%
+        \kern 5.0 pt%
         \AND%
-        \kern 0.25 cm%
-        \mbox{\hrefWithoutArrow{https://github.com/BoodyahmedHamdy}{{\footnotesize\faGithub}\hspace*{0.13cm}BoodyahmedHamdy}}%
+        \kern 5.0 pt%
+        \mbox{\hrefWithoutArrow{https://github.com/BoodyahmedHamdy}{github.com/BoodyahmedHamdy}}%
     \end{header}
 
-    \vspace{0.3 cm - 0.5 cm}
+    \vspace{5 pt - 0.3 cm}
 
 
     \section{Summary}
@@ -195,6 +206,33 @@
         \begin{onecolentry}
             Detail-oriented and well-organized \textbf{Junior Android Developer} skilled in \textbf{Kotlin, Java, and Jetpack Compose}. Passionate about building clean, scalable apps using modern architecture and best practices.
         \end{onecolentry}
+
+
+    
+    \section{Experience}
+
+
+
+        
+        \begin{twocolentry}{
+            Nov 2024 – present
+        }
+            \textbf{Associate Software Engineer}, Fawry -- Cairo, Egypt\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Architected and developed a robust \textbf{Card Reader SDK} from scratch using \textbf{Kotlin}, supporting \textbf{Visa, Mastercard, Mada, and Amex} kernels for secure payment processing.
+                \item Engineered a modern \textbf{Android Permission Library} to replace legacy RxPermissions, improving code maintainability and adopting modern reactive patterns.
+                \item Integrated \textbf{Pure Kernel} into existing terminal software to enable support for \textbf{Mada cards}, expanding payment accessibility for merchants.
+                \item Contributed to the \textbf{SalesRep app}, a critical tool for Fawry's sales force to manage merchant relations and transactions.
+                \item Optimized build systems using \textbf{Gradle Convention Plugins}, multi-module architecture, and \textbf{Build Variants} to streamline the development of complex terminal applications.
+                \item Conducted technical knowledge sharing sessions on \textbf{AIDL and Inter-Process Communication (IPC)}, enhancing the team's ability to handle background service interactions.
+                \item Researched and implemented \textbf{KMP (Kotlin Multiplatform)} with AGP 9.0 and \textbf{R8 optimizations} to ensure secure, high-performance, and cross-platform compatible codebases.
+                \item Gained specialized expertise in \textbf{Fintech hardware}, working with \textbf{Pax SDKs (Neptunelite)}, ISO messages, and EMV transaction flows.
+            \end{highlights}
+        \end{onecolentry}
+
 
 
     
@@ -216,7 +254,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.3 cm}
+        \vspace{0.2 cm}
 
         \begin{twocolentry}{
             Oct 2020 – May 2024
@@ -257,7 +295,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.3 cm}
+        \vspace{0.2 cm}
 
         \begin{twocolentry}{
             \href{https://github.com/Boodyahmedhamdy/Vertex}{Github}
@@ -275,7 +313,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.3 cm}
+        \vspace{0.2 cm}
 
         \begin{twocolentry}{
             \href{https://github.com/Boodyahmedhamdy/Mealano}{Github}
@@ -304,13 +342,13 @@
             \textbf{Technologies:} Kotlin, Java, Jetpack Compose, Material Design, Retrofit, Coroutines, RxJava, Room, Sqlite, DataStore, Navigation Component, Hilt, Koin, Coil, Firebase, Unit Testing, Instrumentation Testing, Problem Solving, OOP, Data Structure, Algorithms.
         \end{onecolentry}
 
-        \vspace{0.3 cm}
+        \vspace{0.2 cm}
 
         \begin{onecolentry}
             \textbf{Tools:} Android Studio, Android SDK, Version Control System (Git and Github)
         \end{onecolentry}
 
-        \vspace{0.3 cm}
+        \vspace{0.2 cm}
 
         \begin{onecolentry}
             \textbf{Soft Skills:} Organized Thinking, Self discipline, Team Collaboration and Adaptability
@@ -337,7 +375,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.3 cm}
+        \vspace{0.2 cm}
 
         \begin{twocolentry}{
             July 2024 – Aug 2024
@@ -353,7 +391,7 @@
         \end{onecolentry}
 
 
-        \vspace{0.3 cm}
+        \vspace{0.2 cm}
 
         \begin{twocolentry}{
             Mar 2024 – Nov 2024
@@ -380,7 +418,7 @@
             \textbf{Arabic:} Native
         \end{onecolentry}
 
-        \vspace{0.3 cm}
+        \vspace{0.2 cm}
 
         \begin{onecolentry}
             \textbf{English:} Minimum Professional Proficiency

@@ -39,6 +39,21 @@ Picture this:
 
 Detail-oriented and well-organized **Junior Android Developer** skilled in **Kotlin, Java, and Jetpack Compose**. Passionate about building clean, scalable apps using modern architecture and best practices.
 
+# Experience
+
+## Fawry, Associate Software Engineer
+
+- Nov 2024 – present
+- Cairo, Egypt
+- Architected and developed a robust **Card Reader SDK** from scratch using **Kotlin**, supporting **Visa, Mastercard, Mada, and Amex** kernels for secure payment processing.
+- Engineered a modern **Android Permission Library** to replace legacy RxPermissions, improving code maintainability and adopting modern reactive patterns.
+- Integrated **Pure Kernel** into existing terminal software to enable support for **Mada cards**, expanding payment accessibility for merchants.
+- Contributed to the **SalesRep app**, a critical tool for Fawry's sales force to manage merchant relations and transactions.
+- Optimized build systems using **Gradle Convention Plugins**, multi-module architecture, and **Build Variants** to streamline the development of complex terminal applications.
+- Conducted technical knowledge sharing sessions on **AIDL and Inter-Process Communication (IPC)**, enhancing the team's ability to handle background service interactions.
+- Researched and implemented **KMP (Kotlin Multiplatform)** with AGP 9.0 and **R8 optimizations** to ensure secure, high-performance, and cross-platform compatible codebases.
+- Gained specialized expertise in **Fintech hardware**, working with **Pax SDKs (Neptunelite)**, ISO messages, and EMV transaction flows.
+
 # Education
 
 ## Information Technology Institute (ITI), 9-Months Professional Diploma in Smart Village Branch, Egypt
