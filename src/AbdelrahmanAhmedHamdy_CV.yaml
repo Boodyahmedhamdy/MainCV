@@ -16,21 +16,21 @@ cv:
       - "Detail-oriented and well-organized **Junior Android Developer** skilled in **Kotlin, Java, and Jetpack Compose**. Passionate about building clean, scalable apps using modern architecture and best practices."
   
     Experience:
-      - company: Fawry
-        location: Cairo, Egypt
-        designation: Associate Software Engineer
-        start_date: 2024-11
-        end_date: present
-        highlights:
-          - "Architected and developed a robust **Card Reader SDK** from scratch using **Kotlin**, supporting **Visa, Mastercard, Mada, and Amex** kernels for secure payment processing."
-          - "Engineered a modern **Android Permission Library** to replace legacy RxPermissions, improving code maintainability and adopting modern reactive patterns."
-          - "Integrated **Pure Kernel** into existing terminal software to enable support for **Mada cards**, expanding payment accessibility for merchants."
-          - "Contributed to the **SalesRep app**, a critical tool for Fawry's sales force to manage merchant relations and transactions."
-          - "Optimized build systems using **Gradle Convention Plugins**, multi-module architecture, and **Build Variants** to streamline the development of complex terminal applications."
-          - "Conducted technical knowledge sharing sessions on **AIDL and Inter-Process Communication (IPC)**, enhancing the team's ability to handle background service interactions."
-          - "Researched and implemented **KMP (Kotlin Multiplatform)** with AGP 9.0 and **R8 optimizations** to ensure secure, high-performance, and cross-platform compatible codebases."
-          - "Gained specialized expertise in **Fintech hardware**, working with **Pax SDKs (Neptunelite)**, ISO messages, and EMV transaction flows."
-
+      - Company: Fawry
+      - location: Cairo, Egypt
+      - designation: Associate Software Engineer
+      - start_date: 2024-11
+      - end_date: present
+      - highlights:
+        - "Architected and developed a robust **Card Reader SDK** from scratch using **Kotlin**, supporting **Visa, Mastercard, Mada, and Amex** kernels for secure payment processing."
+        - "Engineered a modern **Android Permission Library** to replace legacy RxPermissions, improving code maintainability and adopting modern reactive patterns."
+        - "Integrated **Pure Kernel** into existing terminal software to enable support for **Mada cards**, expanding payment accessibility for merchants."
+        - "Contributed to the **SalesRep app**, a critical tool for Fawry's sales force to manage merchant relations and transactions."
+        - "Optimized build systems using **Gradle Convention Plugins**, multi-module architecture, and **Build Variants** to streamline the development of complex terminal applications."
+        - "Conducted technical knowledge sharing sessions on **AIDL and Inter-Process Communication (IPC)**, enhancing the team's ability to handle background service interactions."
+        - "Researched and implemented **KMP (Kotlin Multiplatform)** with AGP 9.0 and **R8 optimizations** to ensure secure, high-performance, and cross-platform compatible codebases."
+        - "Gained specialized expertise in **Fintech hardware**, working with **Pax SDKs (Neptunelite)**, ISO messages, and EMV transaction flows."
+  
     Education:
       - institution: Information Technology Institute (ITI)
         degree: 9-Months Professional Diploma
