@@ -16,12 +16,12 @@ cv:
       - "Detail-oriented and well-organized **Junior Android Developer** skilled in **Kotlin, Java, and Jetpack Compose**. Passionate about building clean, scalable apps using modern architecture and best practices."
   
     Experience:
-      - Company: Fawry
-      - location: Cairo, Egypt
-      - designation: Associate Software Engineer
-      - start_date: 2024-11
-      - end_date: present
-      - highlights:
+      - company: Fawry
+        position: Associate Software Engineer
+        location: Cairo, Egypt
+        start_date: 2024-11
+        end_date: present
+        highlights:
         - "Architected and developed a robust **Card Reader SDK** from scratch using **Kotlin**, supporting **Visa, Mastercard, Mada, and Amex** kernels for secure payment processing."
         - "Engineered a modern **Android Permission Library** to replace legacy RxPermissions, improving code maintainability and adopting modern reactive patterns."
         - "Integrated **Pure Kernel** into existing terminal software to enable support for **Mada cards**, expanding payment accessibility for merchants."
