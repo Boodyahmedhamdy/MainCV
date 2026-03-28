@@ -43,7 +43,7 @@ Detail-oriented and well-organized **Junior Android Developer** skilled in **Kot
 
 ## Fawry, Associate Software Engineer
 
-- Nov 2024 – present
+- Aug 2025 – present
 - Cairo, Egypt
 - Architected and developed a robust **Card Reader SDK** from scratch using **Kotlin**, supporting **Visa, Mastercard, Mada, and Amex** kernels for secure payment processing.
 - Engineered a modern **Android Permission Library** to replace legacy RxPermissions, improving code maintainability and adopting modern reactive patterns.
@@ -58,7 +58,7 @@ Detail-oriented and well-organized **Junior Android Developer** skilled in **Kot
 
 ## Information Technology Institute (ITI), 9-Months Professional Diploma in Smart Village Branch, Egypt
 
-- Oct 2024 – present
+- Oct 2024 – June 2025
 - Mobile Applications Development (Native)
 
 ## Helwan University, BSc in Computer Science
